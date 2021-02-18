@@ -10,13 +10,20 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@jiaminghi/charts": "^0.2.17",
+    "@jiaminghi/data-view": "^2.9.4",
+    "echarts": "^4.8.0",
+    "echarts-liquidfill": "^2.0.6",
+    "element-ui": "^2.13.2",
     "lib-flexible": "^0.3.2",
     "px2rem-loader": "^0.1.9",
     "vue": "^2.5.2",
+    "vue-baidu-map": "^0.21.22",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
+    "axios": "^0.19.2",
     "babel-core": "^6.22.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-loader": "^7.1.1",
